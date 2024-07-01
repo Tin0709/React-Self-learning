@@ -1,0 +1,250 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button{
+  background: aliceblue;
+  border: solid aliceblue;
+  width: 300px;
+  height: 100px;
+  color: #242424;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button:hover{
+  background: #242424;
+  color: aliceblue;
+}
+
+.conuterWrapper{
+  height: 400px;
+  width: 250px;
+  background: aliceblue;
+  border-radius: 20px;
+  border: solid aliceblue;
+  color: #242424;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allCountIteams{
+  background: none;
+}
+.counterButtons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.conuterWrapper button{
+  padding: 10px;
+  margin: 5px;
+
+  width: 250%;
+  cursor: pointer;
+}
+.conuterWrapper p{
+  font-size: 30px;
+  color: #242424;
+}
+.MyComponent2Wrapper{
+  background: transparent;
+  height: 600px;
+  width: 300px;
+  border-radius: 20px;
+  border: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.MyComponent2Wrapper div button{
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+}
+.color-picker-container{
+  height: 600px;
+  width: 400px;
+  border: solid white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.color-display{
+  border: solid white;
+  height: 300px;
+  width: 300px;
+}
+.color-picker-container input{
+
+  border: solid white;
+}
+
+.Update-An-Object{
+  width: 400px;
+  height: 600px;
+  border: solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Update-An-Object button{
+  margin: 10px;
+}
+.UpdateArray li{
+  cursor: pointer;
+  list-style-type: none;
+}
+.UpdateArray button{
+  cursor: pointer;
+  width: 100px;
+}
+
+.UpdateArray{
+  width: 300px;
+  height: 500px;
+  border: solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.UpdateArray ul{
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.UpdateArrayOfObject{
+  width: 300px;
+  height: 600px;
+  border: solid white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.UpdateArrayOfObject ul{
+  width: 200px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.16);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.UpdateArrayOfObject button{
+  cursor: pointer;
+  width: 120px;
+  height: 30px;
+  margin: 5px;
+}
+.UpdateArrayOfObject li{
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.ToDoListApp{
+  width: 550px;
+  height: 600px;
+
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ToDoListApp div button{
+  border: solid white;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.ToDoListApp div input{
+  border: solid white;
+  height: 35px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+.ToDoListApp ol{
+
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.ToDoListApp ol li{
+  background: rgba(255, 255, 255, 0.2);
+  color: #242424;
+  padding: 10px;
+  margin: 3px;
+  border-radius: 10px;
+  color: #ffff;
+  font-size: 20px;
+  list-style-type: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.text{
+  flex: 2;
+  text-align: center;
+}
+.delete-button, .up-button, .down-button{
+  background: rgba(215, 73, 73, 0.49);
+  border-radius: 10px;
+  margin: 3px;
+  height: 50px;
+  width: 55px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+.up-button, .down-button{background: rgba(255, 255, 255, 0.4)
+}
